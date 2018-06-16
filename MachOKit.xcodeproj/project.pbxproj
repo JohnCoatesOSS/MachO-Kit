@@ -4263,6 +4263,7 @@
 					"__FRAMEWORK__=1",
 				);
 				INFOPLIST_FILE = "Resources/MachOKit-Info.plist";
+				MACH_O_TYPE = staticlib;
 				"VALID_ARCHS[sdk=macosx*]" = "x86_64 i386";
 			};
 			name = Debug;
@@ -4283,6 +4284,7 @@
 					"__FRAMEWORK__=1",
 				);
 				INFOPLIST_FILE = "Resources/MachOKit-Info.plist";
+				MACH_O_TYPE = staticlib;
 				"VALID_ARCHS[sdk=macosx*]" = "x86_64 i386";
 			};
 			name = Release;
